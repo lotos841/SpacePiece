@@ -1,0 +1,248 @@
+body {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Trispace', sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+
+}
+
+
+.intro_content {
+    position: relative;
+
+}
+
+.intro_bg {
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.nav {
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 400px;
+    display: flex;
+    position: absolute;
+}
+
+.nav a {
+
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 26px;
+    color: rgb(172, 172, 172);
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.intro_inner {
+    position: absolute;
+    bottom: 60px;
+    right: 450px ;
+}
+
+.intro_title {
+    text-align: center;
+    font-size: 46px;
+    color: white;
+    font-weight: 800;
+}
+
+.intro_suptitle {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+}
+
+.astronaut_message1_content {
+    width: 1400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+
+.astronaut_message1_img {
+    width: 260px;
+    
+}
+
+.astonaut_message1_text {
+    margin: 50px;
+    color:white;
+    font-size: 26px;
+}
+
+.message_author {
+    font-size: 42px;
+    color: rgb(102, 0, 218);
+}
+
+.astro_ava {
+    margin-top: 20px;
+    margin-right: -80px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.sun_system_content {
+    border-radius: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.sun_system_img {
+    border-radius: 20px;
+    width: 1400px;
+}
+
+.sun {
+    top: 320px;
+    left: -90px;
+    width: 336px;
+    height: 336px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.sun:hover, 
+.mercury:hover, 
+.venus:hover, 
+.yearth:hover,
+.moon:hover,
+.jupiter:hover,
+.mars:hover,
+.saturn:hover,
+.uranus:hover,
+.neptune:hover {
+    background-color: rgba(35, 35, 35, 0.463);
+    border: 2px solid white;
+}
+
+.astro_message_sun_system {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.astro_ava_sun_system {
+    width: 80px;
+}
+
+.sun_system_title {
+    font-size: 30px;
+    color: white;
+}
+
+.mercury {
+    top: 466px;
+    left: 274px;
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.venus {
+    top: 282px;
+    left: 334px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.yearth {
+    top: 600px;
+    left: 458px;
+    width: 143px;
+    height: 143px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.moon {
+
+    top: 569px;
+    left: 576px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.mars {
+    top: 252px;
+    left: 635px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.jupiter {
+    top: 436px;
+    left: 736px;
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.saturn {
+
+    top: 182px;
+    right: 315px;
+    width: 182px;
+    height: 182px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.uranus {
+
+    top: 482px;
+    right: 170px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.neptune {
+    top: 702px;
+    right: 48px;
+    width: 137px;
+    height: 137px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.2s ease;
+}

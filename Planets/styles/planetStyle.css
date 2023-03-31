@@ -1,0 +1,201 @@
+body {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Trispace', sans-serif;
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    
+
+}
+
+.nav {
+    padding: 20px 0;
+    border-radius: 0px 0px 10px 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: rgb(135, 135, 135);
+    transition: all 0.2s ease;
+}
+
+.nav-link a:hover{
+    color: white;
+}
+
+.intro {
+    height: 700px;
+    padding-top: 40px;
+    
+}
+
+.intro_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro_img img {
+    margin-left: 40px;
+    width: 500px;
+}
+
+.intro_title {
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+}
+
+
+.astronaut_message1_content {
+    width: 700px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+
+.astronaut_message1_img {
+    width: 500px;
+    
+}
+
+.astonaut_message1_text {
+    margin: 50px;
+    color:white;
+    font-size: 26px;
+}
+
+.message_author {
+    font-size: 42px;
+    color: rgb(102, 0, 218);
+}
+
+.astro_ava {
+    margin-top: 20px;
+    margin-right: -60px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.about_content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.astro_talking {
+    display: flex;
+}
+
+.astro_img {
+    
+    width: 300px;
+}
+
+.astro_talking_text {
+    padding: 10px;
+    text-align: justify;
+}
+
+.planet_img {
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 400px;
+}
+
+.facts {
+    margin-top: 100px;
+}
+
+.facts_title {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.facts_imgages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.astro_img2 img{
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 300px;
+}
+
+.facts-image_title {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.facts_texts {
+    padding: 20px;
+}
+
+p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.characteristic_content {
+    height: 600px;
+}
+
+.characteristic_title {
+    padding-top: 40px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.characteristic_boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.temperature_box {
+    border-radius: 10px;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+}
+
+.temperature_box img{
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 100px;
+}
+
+.characteristic_box_title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.characteristic_box_value {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.characteristic_box_comment_value {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 23px;
+}
